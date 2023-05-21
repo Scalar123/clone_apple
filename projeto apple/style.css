@@ -9,10 +9,10 @@
 }
 
 #nav_bar {
-    background-image:url(https://a-static.mlcdn.com.br/1500x1500/fundo-fotografico-em-tecido-newborn-cinza-148x210m-ff-ci-tudoprafoto/tudoparafoto/396659004/8aba6ba8d6ea6dfe77ae5bf54b14a1c6.jpeg);
+  /* background-image:url(https://a-static.mlcdn.com.br/1500x1500/fundo-fotografico-em-tecido-newborn-cinza-148x210m-ff-ci-tudoprafoto/tudoparafoto/396659004/8aba6ba8d6ea6dfe77ae5bf54b14a1c6.jpeg);*/
 }
 
-#div_logotipo, li  {
+#div_logotipo, li , #atalho  {
     display: inline-block;
 }
 
@@ -21,8 +21,8 @@
 }
 
 #atalhos{
-    float: none;
-    display: inline-block;
-    margin-left: 350px;
+    float: right;
+    
+   
 }
 
