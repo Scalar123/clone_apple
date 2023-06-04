@@ -2,8 +2,6 @@
     text-align: center;
 }
 
-
-
 .item {
     text-align: center;
     margin: 5px;
@@ -14,9 +12,57 @@
 
 .coluna {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
 }
 
 .linha {
-    grid-template-rows: 200px 100px;
+    grid-template-rows: 80px 80px 80px 80px;
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.coluna-header{
+    margin-top: 4px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 25px;
+}
+
+.linha-header {
+    grid-template-rows: 35px;
+    
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+figure {
+    display: inline-block;
+}
+
+.icone {
+    width: 1em;
+}
+
+ul {
+    display: inline-block;
+    float: right;
+}
+
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
 }
