@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "playfair";
+    
+}
+
+header{
+    background-color: white;
+    
+}
+
+
+#div-header{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    
+}
+
+div {
+    align-items: center;
+}
+header img{
+    width: 45px;
+}
+
+ #bar-icon-img{
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+} 
+
+#atalho-top li {
+    display: inline-block;
+    margin: 17px 20px;
+    margin-right: 18px;
+}
+
+#top-right li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
